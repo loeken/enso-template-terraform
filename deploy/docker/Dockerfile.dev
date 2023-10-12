@@ -4,7 +4,7 @@ FROM alpine:latest
 # Metadata as described in Docker best practices
 LABEL maintainer="loeken@internetz.me" \
       version="1.0" \
-      description="VSCode DevContainer for Terraform on Alpine Linux"
+      description="VSCode DevContainer for enso"
 
 # Install necessary tools and dependencies
 RUN apk add --no-cache git curl bash gpg sudo openssh zsh apk-tools-zsh-completion nodejs npm
