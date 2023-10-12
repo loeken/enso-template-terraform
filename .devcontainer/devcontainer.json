@@ -8,7 +8,8 @@
             "extensions": [
 				"HashiCorp.terraform",
 				"run-at-scale.terraform-doc-snippets",
-				"oderwat.indent-rainbow"
+				"oderwat.indent-rainbow",
+				"ms-azuretools.vscode-docker"
 			],
 			"settings": { 
                 "python.pythonPath": "/usr/local/bin/python3"
