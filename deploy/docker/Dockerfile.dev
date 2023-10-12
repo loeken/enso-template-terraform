@@ -28,7 +28,7 @@ USER vscode
 WORKDIR /app
 
 # Copy files into container
-COPY . .
+COPY --chown=vscode:vscode . .
 
 # Set the default shell to zsh
 SHELL ["/bin/zsh", "-c"]
